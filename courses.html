@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Vision Academy</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="../index.html"><img src="vision_img/logo.jpg" alt=""></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                 <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BATCHES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+    <!--------------------- Courses  ----------------------->
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>Vision Academy always believed in providing quantitative yet qualitative solution to aspirants in order to enhance their preperation in UPSC Civil services Examination.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Classroom Courses</h3>
+                <p>Our Flagship UPSC classroom course is a comprehensive 12 month full time UPSC course where we guide IAS aspirants from scratch and teach them every Aspect of civil service examination </p>
+            </div>
+            <div class="course-col">
+                <h3>Weekend Courses</h3>
+                <p>Want to join UPSC classes in Delhi? Enroll at our Weekend course</p>
+            </div>
+            <div class="course-col">
+                <h3>Live Classes /Online Classes</h3>
+                <p>We understand that not everyone have time for physical classes so we bring forward to you Online classes</p>
+            </div>
+        </div>
+    </section>
+    <!----------------------------- Facalities ------------------------>
+    <section class="faculties">
+        <h1><center>Our Faculties</center></h1>
+        <center><p>Vision Academy has the <b>BEST FACULTIES</b> compared to other institutes</p></center>
+        <div class="row">
+            <div class="fac-col">
+                <img src="vision_img/teacher1.jpg" alt="">
+                <h3>Dr. A.K. Kapoor</h3>
+                <p><c>specialist in Current affair and English Optional with teaching experience of 10years</c></p>
+            </div>
+            <div class="fac-col">
+                <img src="vision_img/teacher2.jpg" alt="">
+                <h3>Dr. Kartik Malhotra</h3>
+                <p>Specialist in Hindi Optional and GS with teaching experience of 30 years .</p>
+            </div>
+            <div class="fac-col">
+                <img src="vision_img/teacher3.jpg" alt="">
+                <h3>Dr. Swapnil Kumar</h3>
+                <p>Foundatinal course specialist  with teaching experience of 20 years.</p>
+        </div>
+    </section>
+    <!----------------- Footer ------------------------------->
+    <Footer class="footer">
+        <h4>ABOUT US</h4>
+        <p>Founded in 1998 by Dr. S.K. Malhotra, it reflects a new paradigm for unique training in practical ministry. Unlike traditional coaching , we focus on equipping 
+            <br>“in-service” leaders with a hybrid online and in-person style of teaching and learning, as well as impartation and activation.</p>
+            <div class="icons">
+                <a href="https://github.com/5hubhangi"><i class="fa fa-github"></a></i>
+                <a href="https://www.linkedin.com/in/shubhangityagi22"><i class="fa fa-linkedin"></i></a>
+                <a href="https://twitter.com/5hubhangi"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.instagram.com/5hubhangi"><i class="fa fa-instagram"></i></a> 
+            </div>
+        <p>Made with <i class="fa fa-heart"></i> by Shubhangi Tyagi</p>
+    </Footer>
+     <!--------------------------- Javascript ------------------>
+     <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu() {
+            navLinks.style.right = "0";
+        }
+        function hidemenu() 
+            navLinks.style.right = "-200px"       
+    </script>
+</body>
+</html>

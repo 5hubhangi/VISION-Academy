@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Vision Academy</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="../index.html"><img src="vision_img/logo.jpg" alt=""></a>
+            <div class="nav-link" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                 <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BATCHES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Upcoming Batches and classes dates for upcoming classes in Delhi</h1>
+    </section>
+    <!--------------------- blog page content ----------------------->
+    <section class="blog-col">
+        <div class="row">
+            <div class="blog-left">
+                <img src="vision_img/blog.jpg" alt="">
+                <h2>Our Offline  & Online Courses For 2024 UPSC exam</h2>
+                <p>Preparing for Civil Services Exam is one of the most enriching journeys that anyone can embark on.
+                     A person who has dived into this will never be the same again. The learning process and knowledge 
+                     gained is bound to transform the person to become a thinker, an analyst, in fact a scholar who has 
+                     insight into all the aspects of life. This journey is so unique that at the end of it, knowledge 
+                     gained not only influences the intellectual capacity of an aspirant positively but also makes the 
+                     aspirant stand apart from the crowd.</p>
+                <br>
+                <p>The General Studies Integrated is the best classroom course for IAS preparation which prepares UPSC 
+                    aspirants holistically for both UPSC Prelims and UPSC Mains stages of Civil Services Exam.</p>
+                <br>
+                <p>Experience the best UPSC interview guidance at Vision Academy. The Interview program includes 1-on-1 
+                    DAF Analysis followed by Mock Interview.IAS offers best IAS coaching in such optional subjects for
+                     UPSC Mains which have maximum syllabus overlap and strategic relevance with the compulsory papers 
+                     of General Studies</p>
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form action="" class="comment-form">
+                        <input type="text " placeholder="Enter Name ">
+                        <input type="email" placeholder="Enter Email ">
+                        <textarea rows="5" placeholder="Leave your Comment"></textarea>
+                        <button type="submit" class="hero-btn exp-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>New Courses </h3>
+                <div>
+                    <span>Weekend courses</span>
+                    <span>22 -July -2023</span>
+                </div>
+                <div>
+                    <span>Foundation Course</span>
+                    <span>30 -June -2023</span>
+                </div>
+                <div>
+                    <span>General Studies Pre mains </span>
+                    <span>12-July-2023</span>
+                </div>
+                <div>
+                    <span>Complete Course</span>
+                    <span>4- July - 2023</span>
+                </div>
+                <div>
+                    <span>Foundation with optional</span>
+                    <span>24-July-2023</span>
+                </div>
+                <div>
+                    <span>Online courses</span>
+                    <span>27-July-2023</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------------- Footer ------------------------------->
+    <Footer class="footer">
+        <h4>ABOUT US</h4>
+        <p>Founded in 1998 by Dr.S.K. Malhotra, it reflects a new paradigm for unique training in practical ministry. Unlike traditional coaching, we focus on equipping 
+            <br>“in-service”</b> leaders with a hybrid online and in-person style of teaching and learning, as well as impartation and activation.
+        </p>
+        <div class="icons">
+            <a href="https://github.com/5hubhangi"><i class="fa fa-github"></a></i>
+            <a href="https://www.linkedin.com/in/shubhangityagi22"><i class="fa fa-linkedin"></i></a>
+            <a href="https://twitter.com/5hubhangi"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/5hubhangi"><i class="fa fa-instagram"></i></a> 
+        </div>
+        <p>Made with <i class="fa fa-heart"></i> by Shubhangi Tyagi</p>
+    </Footer>
+     <!--------------------------- Javascript ------------------>
+     <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right ="0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
